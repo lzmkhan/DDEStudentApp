@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     android:orientation="vertical" 
+     android:layout_width="fill_parent" 
+     android:layout_height="fill_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="8.0dip"
+        android:text="Select the Location from the list." />
+
+    <View 
+        android:background="@android:color/black" 
+        android:layout_width="fill_parent" 
+        android:layout_height="1.0dip" 
+        />
+    <Spinner 
+        android:id="@+id/spinner2" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="8.0dip" 
+        android:layout_marginTop="20.0dip" 
+        android:layout_marginRight="8.0dip" 
+   
+        />
+    <View
+         android:background="@android:color/black" 
+         android:layout_width="fill_parent" 
+         android:layout_height="1.0dip" 
+         />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+             <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" 
+            android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textview001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PCP Code"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/sc0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+               android:layout_margin="5dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+            
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" 
+            android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textview002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PCP Center"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/sc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+               android:layout_margin="5dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+             
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" 
+            android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textview003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address1"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/sc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+               android:layout_margin="5dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+ 
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" 
+            android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textview004"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address2"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/sc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+               android:layout_margin="5dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+         
+           <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" 
+            android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textview005"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taluk"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/sc4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+               android:layout_margin="5dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+  
+              <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" 
+            android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textview006"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/sc5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+               android:layout_margin="5dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+           
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" 
+            android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textview007"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="District"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/sc6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+               android:layout_margin="5dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+              
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" 
+            android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textview008"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="State"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/sc7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+               android:layout_margin="5dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+   
+            
+               <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" 
+            android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textview009"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Postal Code"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/sc8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+               android:layout_margin="5dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+            
+                  <LinearLayout
+                      android:id="@+id/search_center_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" 
+            android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textview0010"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telephone(tap me to call)"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/sc9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+               android:layout_margin="5dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+               
+               <LinearLayout
+                   android:id="@+id/search_center_gmaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" 
+            android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/textview0011"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Google maps"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/sc10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                 android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+               android:layout_margin="5dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+                  
+            
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

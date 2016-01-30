@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 
+    android:layout_margin="5dp">
+
+   
+        <TextView
+            android:id="@+id/newstitleNo"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#66ccff"
+            android:text="contact det"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:gravity="center_vertical"
+            android:textSize="10dp"
+            android:layout_below="@id/newstitleNo"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/txtContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Surname"
+            android:gravity="center_vertical"
+            android:textSize="10dp"
+            android:layout_below="@id/txtDate"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+           />
+
+       
+    </RelativeLayout>
+
+
+

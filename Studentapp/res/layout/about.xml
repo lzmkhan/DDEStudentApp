@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icon1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.09"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Android Client by \n  M.Khan, BECSE(2011-2015) \n\n Webservices by  \n Karthikeyan, BECSE(2011-2015) \n\n Under guidance of \n Mr.Natarajasivan, Asst.Professor, Dept of CSE \n\n Special thanks to \n Dr. RM. CHANDRASEKARAN, Director, DDE for making this project possible. \n\n App is designed for phones with android version ICE CREAM SANDWICH or above"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Studentapp</string>
+    <string name="hello_world">Hello world!</string>
+        <string name="xx1">Hello world1</string>
+    <string name="action_settings">Update Links</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">close drawer</string>
+  <string name="x_1">Select an optionr</string>
+    
+
+    <string-array name="title_array">
+        <item>Your Information</item>
+        <item>My Center</item>
+        <item>PCP Schedule</item>
+        <item>Exam</item>
+        <item>Results</item>
+        <item>Grievances</item>
+        <item>Search Centers</item>
+        <item>Login</item>
+        <item>Messages</item>
+        <item>Contact Us</item>
+        <item>About App</item>
+        
+    </string-array>
+
+    <string-array name="grievance_array">
+        <item>Degree Certificate</item>
+        <item>Study Materials</item>
+        <item>Fee Arrears</item>
+        <item>Exam Results</item>
+    </string-array>
+    
+    
+    
+    
+</resources>

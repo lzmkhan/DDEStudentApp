@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/somestring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60.0dip"
+        android:text="Please enter your roll number"
+        android:textColor="#ff000000" />
+
+    <EditText
+        android:id="@+id/LoginNo"
+        android:layout_width="300.0dip"
+        android:layout_height="40.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60.0dip"
+        android:background="#ffffffff"
+        android:gravity="center_vertical|center_horizontal"
+        android:inputType="text"
+        android:onClick="onclickm"
+        android:text="Enroll number" />
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="43.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30.0dip"
+        android:background="@drawable/buttonshape"
+        android:onClick="onlogin_click"
+        android:text="Log in" />
+
+    <TextView
+        android:id="@+id/regi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.20"
+        android:padding="5dp"
+        android:text="Please click on top right button and press register GCM to start receiving messages"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="invisible" />
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView 
+    android:textSize="20.0sp" 
+    android:layout_gravity="center_horizontal" 
+    android:id="@+id/textView1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Submit your Query" 
+    android:layout_weight="0.05" 
+    />
+    
+    <EditText 
+        android:id="@+id/phone1" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Your phone number here" 
+        android:ems="10" 
+        android:layout_weight="0.05" 
+        android:inputType="phone" 
+        android:onClick="onclickm"
+        >
+        <requestFocus />
+    </EditText>
+    
+    <EditText 
+        android:id="@+id/emailid1" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Your email here" 
+        android:ems="10" 
+        android:layout_weight="0.05" 
+        android:inputType="textEmailAddress" 
+        android:onClick="onclickm" 
+        />
+    <Spinner 
+        android:id="@+id/spinner1" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_weight="0.05" 
+        android:entries="@array/grievance_array"
+        android:prompt="@string/x_1"
+        />
+    
+    <EditText 
+        android:id="@+id/editText32" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Your query here" 
+        android:ems="10" 
+        android:layout_weight="0.16" 
+        android:inputType="textMultiLine" 
+        android:onClick="onclickm" 
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="135dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/buttonshape"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/buttonshape"
+            android:text="Submit"
+            android:onClick="grievanceweb" />
+
+    </LinearLayout>
+</LinearLayout>
